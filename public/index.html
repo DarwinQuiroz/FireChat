@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Fire Chat</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="css/material.min.css">
+  	<link rel="stylesheet" href="css/material.min-color.css">
+  	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+  	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+
+<body>
+	<section id="page">
+		<h3><i class="material-icons md-48">question_answer</i>FireChat</h3>
+
+		<div class="fc-caption">La Mensajería Instantanea de FireBase</div>
+
+		<button id="btn-google" class="fc-login-button fc-sign-in-button mdl-button--raised mdl-button mdl-js-button mdl-js-ripple-effect"><i class="material-icons">account_circle</i>Ingresa con Google</button>
+		<button id="btn-facebook" class="fc-login-button fc-sign-in-button mdl-button--raised mdl-button mdl-js-button mdl-js-ripple-effect"><i class="material-icons">account_circle</i>Ingresa con Facebook</button>
+	</section>
+
+	<div id="page2" class="mdl-layout mdl-js-layout mdl-layout__fixed-header">
+		<header class="mdl-layout__header mdl-color-deep-purple-700">
+			<div class="mdl-layout__header-row">
+				<span class="mdl-layout-title"></span>
+				<span class="mdl-layout-spacer"></span>
+			</div>
+		</header>
+		<main class="mdl-layout__content">
+			<div class="page-conten"></div>
+		</main>
+	</div>	
+
+	<script src="js/material.min.js"></script>
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
